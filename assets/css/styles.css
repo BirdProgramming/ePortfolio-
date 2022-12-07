@@ -6,11 +6,11 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: black;
-  --primary-color:  grey;
+  --bg-color: #E9E3E6;
+  --primary-color:  #736F72;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --secondary-shadow: #B2B2B2;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -27,6 +27,9 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  background-color: var(--secondary-shadow);
 }
 
 ul {
@@ -100,4 +103,36 @@ nav {
   .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+  }
+  .more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+  }
+  
+  .more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+  }
+  
+  .more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+  }
+  .cpu-art {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+  }
+  
+  .cpu-art h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+  }
+  .cpu-art a {
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+  
+  .cpu-art p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
   }
